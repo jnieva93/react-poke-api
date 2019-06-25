@@ -1,6 +1,5 @@
 import React from "react";
-
-import logo from ".././logo.svg";
+import logo from "../resources/./logo.svg";
 import ".././App.css";
 import { Grid } from "@material-ui/core";
 import SelectPoke from "./SelectPoke";
@@ -8,7 +7,7 @@ import SelectPoke from "./SelectPoke";
 const Body = () => {
   return (
     <Grid container spacing={0} justify="center">
-      <Grid item xs={9}>
+      <Grid item xs={9} align="center">
         <h1>
           <img src={logo} className="App-logo" alt="logo" /> Poke API React
           Remake

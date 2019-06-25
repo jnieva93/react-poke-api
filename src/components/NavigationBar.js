@@ -2,6 +2,7 @@ import React from "react";
 import { AppBar, Toolbar, Typography } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
+import BarIcons from "./BarIcons";
 
 const useStyles = makeStyles(theme => ({
   appBar: {
@@ -44,11 +45,7 @@ const NavigationBar = ({ goto }) => {
             {goto}
           </Link>
         </Typography>
-        <Typography variant="h6">
-          <Link className={classes.link} to="/about">
-            ABOUT
-          </Link>
-        </Typography>
+        <BarIcons />
       </Toolbar>
     </AppBar>
   );

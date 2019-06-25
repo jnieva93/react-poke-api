@@ -2,7 +2,6 @@ import React from "react";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavigationBar from "./components/NavigationBar";
-import About from "./components/About";
 import Body from "./components/Body";
 import Home from "./components/Home";
 
@@ -39,7 +38,6 @@ function App() {
             </div>
           )}
         />
-        <Route path="/about" component={About} />
       </Switch>
     </Router>
   );

@@ -56,7 +56,7 @@ const SelectPoke = () => {
   }, []);
 
   return (
-    <div>
+    <React.Fragment>
       <Select
         value={selectedOption}
         onChange={handleChange}
@@ -86,7 +86,7 @@ const SelectPoke = () => {
           )}
         />
       </Switch>
-    </div>
+    </React.Fragment>
   );
 };
 

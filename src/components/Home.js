@@ -42,7 +42,7 @@ const Home = () => {
   const classes = useStyles();
 
   return (
-    <div>
+    <React.Fragment>
       <Grid
         className={classes.top}
         container
@@ -124,7 +124,7 @@ const Home = () => {
           <BarIcons />
         </Toolbar>
       </AppBar>
-    </div>
+    </React.Fragment>
   );
 };
 
